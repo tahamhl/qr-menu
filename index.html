@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Restoran Menüsü</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-orange-50 to-orange-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <!-- Header -->
+        <header class="text-center mb-16 relative">
+            <div class="absolute inset-0 -z-10 bg-orange-400 transform -skew-y-2 rounded-3xl opacity-10"></div>
+            <h1 class="text-5xl font-bold text-orange-800 mb-3 pt-8">Lezzet Durağı</h1>
+            <p class="text-orange-600 text-xl">Modern Türk Mutfağı</p>
+        </header>
+
+        <!-- Menu Categories -->
+        <div class="space-y-12">
+            <!-- Başlangıçlar -->
+            <section>
+                <h2 class="text-3xl font-semibold text-orange-800 mb-8 pb-2 border-b-2 border-orange-200">Başlangıçlar</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf" alt="Mevsim Salata" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Mevsim Salata</h3>
+                                    <p class="text-gray-600 mt-2">Taze mevsim yeşillikleri, kiraz domates, salatalık, zeytinyağı ve limon sos</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺85</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://cdn.ye-mek.net/App_UI/Img/out/650/2024/02/esnaf-usulu-mercimek-corbasi-resimli-yemek-tarifi(11).jpg" alt="Mercimek Çorbası" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Mercimek Çorbası</h3>
+                                    <p class="text-gray-600 mt-2">Geleneksel tarif ile hazırlanmış mercimek çorbası, taze limon ve kıtır ekmek ile</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺65</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://images.unsplash.com/photo-1541518763669-27fef04b14ea" alt="Humus" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Ev Yapımı Humus</h3>
+                                    <p class="text-gray-600 mt-2">Taze nane, zeytinyağı ve özel baharatlar ile servis edilir</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺90</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://cdn.yemek.com/mnresize/1250/833/uploads/2024/01/sigara-boregi-yemekcom.jpg" alt="Sigara Böreği" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Peynirli Sigara Böreği</h3>
+                                    <p class="text-gray-600 mt-2">Özel peynir karışımı ile hazırlanmış çıtır sigara böreği (6 adet)</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺120</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ana Yemekler -->
+            <section>
+                <h2 class="text-3xl font-semibold text-orange-800 mb-8 pb-2 border-b-2 border-orange-200">Ana Yemekler</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2" alt="Izgara Somon" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Izgara Somon</h3>
+                                    <p class="text-gray-600 mt-2">Sebzeli pilav, ızgara mevsim sebzeleri ve özel limon sos ile</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺280</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468" alt="Köfte" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Kasap Köfte</h3>
+                                    <p class="text-gray-600 mt-2">Özel baharatlarla hazırlanmış köfte, patates kızartması ve közlenmiş domates ile</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺220</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://imgrosetta.mynet.com.tr/file/13481553/640xauto.jpg" alt="Mantı" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Kayseri Mantısı</h3>
+                                    <p class="text-gray-600 mt-2">El açması mantı, yoğurt, tereyağı ve özel domates sos ile</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺180</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc" alt="Pide" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Karışık Pide</h3>
+                                    <p class="text-gray-600 mt-2">Kaşar, sucuk, pastırma ve taze kaşar ile özel taş fırında</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺160</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tatlılar -->
+            <section>
+                <h2 class="text-3xl font-semibold text-orange-800 mb-8 pb-2 border-b-2 border-orange-200">Tatlılar</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://i.lezzet.com.tr/images-xxlarge-recipe/firin_sutlac-5423c233-f564-4dd0-a452-7f2c509213b1.jpg" alt="Fırın Sütlaç" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Fırın Sütlaç</h3>
+                                    <p class="text-gray-600 mt-2">Geleneksel tarif ile hazırlanmış, üzeri kızarmış fırın sütlaç</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺75</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f" alt="Çikolatalı Sufle" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Çikolatalı Sufle</h3>
+                                    <p class="text-gray-600 mt-2">Sıcak servis edilen sufle, vanilyalı dondurma ile</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺95</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://turkishfoodie.com/wp-content/uploads/2018/06/Kunefe.jpg" alt="Künefe" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Hatay Künefesi</h3>
+                                    <p class="text-gray-600 mt-2">Özel peyniri ile hazırlanan künefe, antep fıstığı ile</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺140</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://www.alibabasut.com/wp-content/uploads/2021/08/DSC05758.jpg" alt="Baklava" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Fıstıklı Baklava</h3>
+                                    <p class="text-gray-600 mt-2">Antep fıstığı ile katmer katmer hazırlanmış özel baklava (4 dilim)</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺160</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- İçecekler -->
+            <section>
+                <h2 class="text-3xl font-semibold text-orange-800 mb-8 pb-2 border-b-2 border-orange-200">İçecekler</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="https://www.teashop.com.tr/wp-content/uploads/2024/07/12.jpg" alt="Türk Kahvesi" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Türk Kahvesi</h3>
+                                    <p class="text-gray-600 mt-2">Özel kavurma kahve, lokum ile servis edilir</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <img src="http://www.safis.com.tr/wp-content/uploads/2019/08/ayran-cesitleri.jpg" alt="Ayran" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <div class="flex justify-between items-start">
+                                <div>
+                                    <h3 class="text-xl font-medium text-gray-800">Ev Yapımı Ayran</h3>
+                                    <p class="text-gray-600 mt-2">Günlük yoğurttan yapılan köpüklü ayran</p>
+                                </div>
+                                <span class="text-orange-600 font-semibold text-xl">₺35</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-16 text-center text-orange-700 pb-8">
+            <p class="text-xl font-medium">Afiyet Olsun!</p>
+            <p class="mt-2 text-sm">Rezervasyon için: (555) 123 45 67</p>
+            <a href="https://tahamehel.tr" class="mt-4 inline-block text-orange-600 hover:text-orange-800 transition-colors duration-300">www.tahamehel.tr</a>
+        </footer>
+    </div>
+</body>
+</html> 
